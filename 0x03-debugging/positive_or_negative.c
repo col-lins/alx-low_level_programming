@@ -7,19 +7,19 @@
  */
 int main(void)
 {
-	int n;
+	int i;
 
-	if (n > 0)
+	if (i > 0)
 	{
-		printf("%d is positive", n);
+		printf("%d is positive", i);
 	}
-	else if (n < 0)
+	else if (i < 0)
 	{
-		printf("%d is negative", n);
+		printf("%d is negative", i);
 	}
 	else
 	{
-		printf("%d is zero", n);
+		printf("%d is zero", i);
 	}
 	return (0);
 }
